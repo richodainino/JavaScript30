@@ -1,6 +1,9 @@
 html {
   font-size: 10px;
-  background-color: white;
+  background-image: url("./image/background/002.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
