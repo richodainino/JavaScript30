@@ -1,0 +1,102 @@
+html {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  line-height: 30px;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: sans-serif;
+}
+
+header {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 18px;
+}
+
+main {
+  display: table;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://image.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("https://image.freepik.com/free-vector/realistic-summer-background-with-vegetation_23-2148998580.jpg");
+  }
+  50% {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149017896.jpg?size=338&ext=jpg");
+  }
+  100% {
+    background-image: url("https://image.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
+  }
+}
+
+.done {
+  font-weight: bold;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  font-weight: normal;
+  font-size: 18px;
+  visibility: hidden;
+  width: 190px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding-bottom: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
