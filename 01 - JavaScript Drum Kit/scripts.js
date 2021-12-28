@@ -7,19 +7,19 @@ function playSound(e) {
   audio.currentTime = 0; // Rewind to the start
   audio.play();
 
-  // This is the alternative for the bug (2)
+  // (2) This is the solution for the bug
   setTimeout(() => {
     keyAnimation.classList.remove("playing");
   }, 150);
 }
 
-/* There's a bug in this original part (1)
+/* (1) There's a bug in this original part
 function removeTransition(e) {
-if (e.propertyName !== "transform") return; // skip if it's not a transform
-e.target.classList.remove("playing");
+  if (e.propertyName !== "transform") return; // Skip if it's not a transform
+  e.target.classList.remove("playing");
 }
+
 const keys = Array.from(document.querySelectorAll(".key"));
-keys.forEach(key => key.addEventListener("transitionend", removeTransition));
-*/
+keys.forEach(key => key.addEventListener("transitionend", removeTransition)); */
 
 window.addEventListener("keydown", playSound);
