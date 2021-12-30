@@ -36,3 +36,21 @@ function setDate() {
 }
 
 setInterval(setDate, 1000);
+
+// Color Toggler
+
+const chk = document.getElementById('chk');
+const clock = document.querySelector(".clock");
+const toggleFrame = document.querySelector(".label");
+const clockPart = document.getElementsByClassName('clock-part');
+
+chk.addEventListener('change', () => {
+  document.body.classList.toggle("bg-darken");
+
+	clock.classList.toggle("border-black");
+	toggleFrame.classList.toggle("border-black");
+
+  Array.from(clockPart).forEach(element => {
+    element.classList.toggle("background-black");
+  });
+});

@@ -1,18 +1,73 @@
+/* Color Toggler */
+
+* {
+  box-sizing: border-box;
+}
+
+.color-toggler {
+  margin-left: 30px;
+  margin-right: -80px;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+	width: 50px;
+  transform: scale(1.5);
+  transition: border 0.1s linear;
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 18px;
+  width: 18px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear, background 0.1s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+  background-color: black;
+  z-index: 1;
+}
+
+/* end of color toggler */
+
 html {
-  background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
-  background-size: cover;
   font-family: "Helvetica neue", sans-serif;
   text-align: center;
   font-size: 10px;
 }
 
 body {
+  background: rgba(0, 140, 255, 0.329)
+    url(https://picsum.photos/1500/1000?grayscale&blur=5);
+  background-blend-mode: soft-light;
+  background-size: cover;
   margin: 0;
   font-size: 2rem;
   display: flex;
   flex: 1;
   min-height: 100vh;
   align-items: center;
+  justify-content: center;
+  transition: background 0.1s linear;
 }
 
 .clock {
@@ -23,11 +78,9 @@ body {
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 
-    0 0 0 4px rgba(0, 0, 0, 0.1),
-    inset 0 0 0 3px #efefef
-    inset 0 0 10px black
-    0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1),
+  inset 0 0 0 3px #efefef inset 0 0 10px black 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s linear;
 }
 
 .clock-face {
@@ -38,13 +91,16 @@ body {
   transform: rotate(90deg);
 }
 
+.clock-part {
+  background-color: white;
+}
+
 .mid-dot {
   width: 12px;
   height: 12px;
-  background-color: white;
   border-radius: 50%;
   z-index: 1;
-
+  
   /* Centering the position */
   position: absolute;
   top: 50%;
@@ -55,7 +111,6 @@ body {
 .hand {
   width: 50%;
   height: 8px;
-  background-color: white;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
@@ -64,10 +119,22 @@ body {
 }
 
 .second-hand {
-  /* background-color: red; */
   height: 4px;
 }
 
 .min-hand {
   height: 5px;
+}
+
+
+.border-black {
+  border-color: black;
+}
+
+div.background-black {
+  background-color: black;
+}
+
+body.bg-darken {
+  background-color: rgba(7, 142, 252, 0.514);
 }
