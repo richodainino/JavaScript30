@@ -5,4 +5,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 ### Here are the project that I've built
 1. [JS Drum Kit](https://richodainino.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/)
 2. [JS and CSS Clock](https://richodainino.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)
-3. And more to come!
+3. [CSS Variables](https://richodainino.github.io/JavaScript30/03%20-%20CSS%20Variables/)
+4. And more to come!
