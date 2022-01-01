@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background-image: url("./image/background/002.jpg");
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,14 +9,13 @@ html {
 .container {
   height: 100vh;
   width: 100%;
-  background-image: url("./image/background/001.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   animation-name: animate;
-  animation-direction: alternate-reverse;
-  animation-duration: 20s;
+  animation-direction: alternate;
+  animation-duration: 30s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-play-state: running;
@@ -25,13 +24,19 @@ html {
 
 @keyframes animate {
   0% {
-    background-image: url("./image/background/003.jpg");
+    background-image: url("https://picsum.photos/1920/1080?random=1");
+  }
+  25% {
+    background-image: url("https://picsum.photos/1920/1080?random=2");
   }
   50% {
-    background-image: url("./image/background/002.jpg");
+    background-image: url("https://picsum.photos/1920/1080?random=3");
+  }
+  75% {
+    background-image: url("https://picsum.photos/1920/1080?random=4");
   }
   100% {
-    background-image: url("./image/background/001.jpg");
+    background-image: url("https://picsum.photos/1920/1080?random=5");
   }
 }
 
