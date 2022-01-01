@@ -1,5 +1,4 @@
 // Data to work with
-
 const inventors = [
   { first: 'Albert',    last: 'Einstein',     year: 1879, passed: 1955 },
   { first: 'Isaac',     last: 'Newton',       year: 1643, passed: 1727 },
@@ -23,6 +22,7 @@ const people = [
   'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
 ];
 
+const data = [ 'car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who were born in the 1500's
@@ -85,7 +85,6 @@ console.log(alphabetically);
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 console.log("Number 8");
-const data = [ 'car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 const transportation = data.reduce((obj, item) => {
   if (!obj[item]) {
     obj[item] = 0;
