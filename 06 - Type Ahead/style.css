@@ -74,6 +74,16 @@ input.search {
   background: linear-gradient(to top, #ffffff 0%, #efefef 100%);
 }
 
+.suggestions a {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
 img.flag {
   max-width: 70px;
 }

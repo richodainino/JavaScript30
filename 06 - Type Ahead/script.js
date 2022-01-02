@@ -1,5 +1,8 @@
 const endpoint = "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/index.json";
 
+// Making the country list clickable to open its Wikipedia page
+const wikiUrl = "https://en.wikipedia.org/wiki/";
+
 const countries = [];
 
 fetch(endpoint)
@@ -13,23 +16,41 @@ function findMatches(wordToMatch) {
   });
 }
 
+function generateStackItem(element, index, array) {
+  var stackedItem = "";
+  if (Object.is(array.length - 1, index)) {
+    stackedItem += element;
+  }
+  else if (element === "&") {
+    stackedItem += "and_";
+  }
+  else {
+    stackedItem += element + "_";
+  }
+  return stackedItem;
+}
+
 function displayMatches() {
-  console.log("test");
   const matchArray = findMatches(this.value);
   const html = matchArray.map(country => {
     const regex = new RegExp(this.value, 'gi');
     const countryName = country.name.replace(regex, (match) => `<span class="hl">${match}</span>`);
     const countryCode = country.code.replace(regex, (match) => `<span class="hl">${match}</span>`);
+    const countryNameSplit = country.name.split(" ");
+    const countryUrl = wikiUrl + countryNameSplit.map(generateStackItem).join("");
     return `
-      <li>
-        <span class="name">${countryName}, ${countryCode}</span>
-        <img src="${country.image}" alt="${country.name} Flag" class="flag">
+      <li> 
+        <a href="${countryUrl}" target="_blank">
+          <span class="name">${countryName}, ${countryCode}</span>
+          <img src="${country.image}" alt="${country.name} Flag" class="flag">
+        </a>
       </li>
       `;
   }).join('');
   suggestions.innerHTML = html;
 }
 
+// Debounce function from https://www.educative.io/edpresso/how-to-use-the-debounce-function-in-javascript
 function debounce(func, wait, immediate) {
   var timeout;
 
