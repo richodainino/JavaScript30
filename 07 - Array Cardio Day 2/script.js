@@ -33,7 +33,7 @@ const isEveryoneAdult = people.every(person => {
 console.log("2. Is everyone 19 or older?\n" + isEveryoneAdult);
 
 // Array.prototype.find()
-// find is like filter, but instead returns just the one you are looking for
+// Find is like filter, but instead returns just the one you are looking for
 // Find the comment with the ID of 823423
 const findCommentID = comments.find(comment => comment.id === 823423);
 console.log("3. Find the comment with the ID of 823423");
@@ -45,10 +45,12 @@ console.log(findCommentID);
 const findIndexCommentID = comments.findIndex(comment => comment.id === 823423);
 console.log("4. Find the comment with this ID\n" + findIndexCommentID);
 
+// This is one way to delete the comment based on its ID by modifying the original array
 // comments.splice(findIndexCommentID, 1);
 // console.log("5. Delete the comment with the ID of 823423 (1)");
 // console.table(comments);
 
+// This is another way by creating a second array without the specified element
 console.log("5. Delete the comment with the ID of 823423 (2)");
 const newComments = [
   ...comments.slice(0, findIndexCommentID),
