@@ -1,3 +1,5 @@
+// Array Cardio Day 1
+
 // Data to work with
 console.log("Here are the data to work with");
 
