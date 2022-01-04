@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+/* color toggler */
+
+* {
+  box-sizing: border-box;
+}
+
+.color-toggler {
+  margin-left: 30px;
+  margin-right: -80px;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+  transition: border 0.1s linear;
+}
+
+.label .ball {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 18px;
+  width: 18px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear, background 0.1s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+body.bg-darken {
+  background-color: rgb(0, 0, 0);
+}
+
+.border-black {
+  border-color: rgb(255, 255, 255);
+}
