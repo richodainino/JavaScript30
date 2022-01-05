@@ -11,4 +11,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 6. [Type Ahead](https://richodainino.github.io/JavaScript30/06%20-%20Type%20Ahead/)
 7. [Array Cardio Day 2](https://richodainino.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/)
 8. [HTML5 Canvas](https://richodainino.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
-9. And more to come!
+9. [Dev Tools Domination](https://richodainino.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)
+10. And more to come!
