@@ -12,4 +12,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 7. [Array Cardio Day 2](https://richodainino.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/)
 8. [HTML5 Canvas](https://richodainino.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 9. [Dev Tools Domination](https://richodainino.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)
-10. And more to come!
+10. [Hold Shift and Checked Checkboxes](https://richodainino.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
+11. And more to come!
