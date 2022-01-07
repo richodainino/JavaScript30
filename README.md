@@ -13,4 +13,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 8. [HTML5 Canvas](https://richodainino.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 9. [Dev Tools Domination](https://richodainino.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)
 10. [Hold Shift and Checked Checkboxes](https://richodainino.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
+11. [Customm Video Player](https://richodainino.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
 11. And more to come!
