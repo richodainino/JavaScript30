@@ -1,0 +1,80 @@
+body, p {
+  margin: 0;
+}
+
+header {
+  padding-top: 10px;
+  flex-grow: 1;
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+header>p {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2px 5px;
+}
+
+.hints {
+  font-size: small;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+.container.secret {
+  animation-name: secretAnim;
+}
+
+@keyframes secretAnim {
+  0% {
+    background-image: url("https://i.ibb.co/fk9ZN3P/14des21frame1.jpg");
+  }
+  25% {
+    background-image: url("https://i.ibb.co/0XFRk8w/14des21frame2.jpg");
+  }
+  50% {
+    background-image: url("https://i.ibb.co/93ZFFRt/nyap1.jpg");
+  }
+  100% {
+    background-image: url("https://i.ibb.co/zsvnvG1/grid1.jpg");
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("https://picsum.photos/1920/1080?random=1");
+  }
+  25% {
+    background-image: url("https://picsum.photos/1920/1080?random=2");
+  }
+  50% {
+    background-image: url("https://picsum.photos/1920/1080?random=3");
+  }
+  75% {
+    background-image: url("https://picsum.photos/1920/1080?random=4");
+  }
+  100% {
+    background-image: url("https://picsum.photos/1920/1080?random=5");
+  }
+}

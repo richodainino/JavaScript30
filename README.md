@@ -14,4 +14,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 9. [Dev Tools Domination](https://richodainino.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)
 10. [Hold Shift and Checked Checkboxes](https://richodainino.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
 11. [Customm Video Player](https://richodainino.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
-11. And more to come!
+12. [Key Sequence Detection](https://richodainino.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
+13. And more to come!
