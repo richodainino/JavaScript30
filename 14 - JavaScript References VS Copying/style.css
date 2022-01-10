@@ -1,0 +1,50 @@
+body, p {
+  margin: 0;
+}
+
+p:first-child {
+  padding-top: 10px;
+}
+
+p {
+  padding: 2px;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("https://picsum.photos/1920/1080?random=1");
+  }
+  25% {
+    background-image: url("https://picsum.photos/1920/1080?random=2");
+  }
+  50% {
+    background-image: url("https://picsum.photos/1920/1080?random=3");
+  }
+  75% {
+    background-image: url("https://picsum.photos/1920/1080?random=4");
+  }
+  100% {
+    background-image: url("https://picsum.photos/1920/1080?random=5");
+  }
+}
