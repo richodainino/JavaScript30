@@ -18,4 +18,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 12. [Key Sequence Detection](https://richodainino.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
 13. [Slide in on Scroll](https://richodainino.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)
 14. [JS References VS Copying](https://richodainino.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)
-15. And more to come!
+15. [Local Storage](https://richodainino.github.io/JavaScript30/15%20-%20Local%20Storage/)
+16. And more to come!
