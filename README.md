@@ -19,4 +19,6 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 13. [Slide in on Scroll](https://richodainino.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)
 14. [JS References VS Copying](https://richodainino.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)
 15. [Local Storage](https://richodainino.github.io/JavaScript30/15%20-%20Local%20Storage/)
-16. And more to come!
+16. [Mouse Move Shadow](https://richodainino.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
+17. [Sort Without Articles](https://richodainino.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
+18. And more to come!
