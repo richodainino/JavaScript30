@@ -23,4 +23,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 17. [Sort Without Articles](https://richodainino.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
 18. [Adding Up Times with Reduce](https://richodainino.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/)
 19. [Webcam Fun](https://richodainino.github.io/JavaScript30/19%20-%20Webcam%20Fun/)
-20. And more to come!
+20. [Speech Detection](https://richodainino.github.io/JavaScript30/20%20-%20Speech%20Detection/)
+21. And more to come!

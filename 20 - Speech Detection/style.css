@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #ffc600;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.words {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  box-sizing: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+
+body.secret {
+  background-position: center;
+
+  animation-name: secretAnim;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes secretAnim {
+  0% {
+    background-image: url("https://i.ibb.co/fk9ZN3P/14des21frame1.jpg");
+  }
+  25% {
+    background-image: url("https://i.ibb.co/0XFRk8w/14des21frame2.jpg");
+  }
+  50% {
+    background-image: url("https://i.ibb.co/93ZFFRt/nyap1.jpg");
+  }
+  75% {
+    background-image: url("https://i.ibb.co/zsvnvG1/grid1.jpg");
+  }
+  100% {
+    background-image: url("https://i.ibb.co/6RRj5fK/nyap2.jpg");
+  }
+}
