@@ -25,4 +25,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 19. [Webcam Fun](https://richodainino.github.io/JavaScript30/19%20-%20Webcam%20Fun/)
 20. [Speech Detection](https://richodainino.github.io/JavaScript30/20%20-%20Speech%20Detection/)
 21. [Geolocation](https://richodainino.github.io/JavaScript30/21%20-%20Geolocation/)
-22. And more to come!
+22. [Follow Along Link Highlighter](https://richodainino.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20HIghlighter/)
+23. And more to come!
