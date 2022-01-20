@@ -27,4 +27,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 21. [Geolocation](https://richodainino.github.io/JavaScript30/21%20-%20Geolocation/)
 22. [Follow Along Link Highlighter](https://richodainino.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20HIghlighter/)
 23. [Speech Synthesis](https://richodainino.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)
-23. And more to come!
+24. [Sticky Nav](https://richodainino.github.io/JavaScript30/24%20-%20Sticky%20Nav/)
+25. And more to come!
