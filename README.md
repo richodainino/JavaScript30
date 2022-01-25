@@ -32,4 +32,5 @@ This challenge is a way to practice our fundamental understanding of JavaScript 
 26. [Stripe Follow Along Nav](https://richodainino.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav/)
 27. [Click and Drag](https://richodainino.github.io/JavaScript30/27%20-%20Click%20and%20Drag/)
 28. [Video Speed Controller](https://richodainino.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)
-29. And more to come!
+29. [Countdown Timer](https://richodainino.github.io/JavaScript30/29%20-%20Countdown%20Timer/)
+30. Whack A Mole
