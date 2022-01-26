@@ -113,6 +113,10 @@ h1 {
   transition: all .4s;
 }
 
+.mole:hover {
+  cursor: pointer;
+}
+
 .hole.up .mole {
   top: 0;
 }
