@@ -55,7 +55,7 @@ function startGame() {
 }
 
 function bonk(e) {
-  if (!e.isTrusted) return; // Your a cheater
+  if (!e.isTrusted) return; // You're a cheater
 
   score++;
   this.parentNode.classList.remove('up');
