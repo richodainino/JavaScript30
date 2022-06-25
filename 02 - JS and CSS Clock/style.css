@@ -136,5 +136,6 @@ div.background-black {
 }
 
 body.bg-darken {
-  background-color: rgba(7, 142, 252, 0.514);
+  /* background-color: rgba(7, 142, 252, 0.514); */
+  background-image: url("https://i.ibb.co/6RRj5fK/nyap2.jpg");
 }

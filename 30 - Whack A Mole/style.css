@@ -104,7 +104,7 @@ h1 {
 }
 
 .mole {
-  background: url('./image/mole.svg') bottom center no-repeat;
+  background: url('./image/nyapIcon.png') bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100%;

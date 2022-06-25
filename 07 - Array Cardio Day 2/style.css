@@ -33,18 +33,18 @@ a {
 
 @keyframes animate {
   0% {
-    background-image: url("https://picsum.photos/1920/1080?random=1");
+    background-image: url("https://i.ibb.co/fk9ZN3P/14des21frame1.jpg");
   }
   25% {
-    background-image: url("https://picsum.photos/1920/1080?random=2");
+    background-image: url("https://i.ibb.co/LgJbZtZ/nabicho1.jpg");
   }
   50% {
-    background-image: url("https://picsum.photos/1920/1080?random=3");
+    background-image: url("https://i.ibb.co/93ZFFRt/nyap1.jpg");
   }
   75% {
-    background-image: url("https://picsum.photos/1920/1080?random=4");
+    background-image: url("https://i.ibb.co/RbRDjhB/nabicho2.jpg");
   }
   100% {
-    background-image: url("https://picsum.photos/1920/1080?random=5");
+    background-image: url("https://i.ibb.co/6RRj5fK/nyap2.jpg");
   }
 }

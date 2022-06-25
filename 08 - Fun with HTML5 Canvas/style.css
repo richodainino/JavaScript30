@@ -60,7 +60,8 @@ body {
 }
 
 body.bg-darken {
-  background-color: rgb(0, 0, 0);
+  background-image: url("https://i.ibb.co/6RRj5fK/nyap2.jpg");
+  /* background-color: rgb(0, 0, 0); */
 }
 
 .border-black {

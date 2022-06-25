@@ -68,3 +68,7 @@ body {
 
 .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+
+.item25 {
+  background-image: url("https://i.ibb.co/93ZFFRt/nyap1.jpg") !important;
+}

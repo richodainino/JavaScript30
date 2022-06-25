@@ -4,6 +4,7 @@ let isPause = false;
 const timerDisplay = document.querySelector('.display__time-left');
 const endTime = document.querySelector('.display__end-time');
 const buttons = document.querySelectorAll('[data-time]');
+const body = document.querySelector('body');
 
 function timer(seconds) {
   // Clear any existing timers
@@ -62,12 +63,14 @@ function pauseTimer() {
     isPause = false;
     timerDisplay.classList.remove('pause');
     endTime.classList.remove('pause');
+    body.classList.remove('pause');
   }
   else {
     clearInterval(countdown);
     isPause = true;
     timerDisplay.classList.add('pause');
     endTime.classList.add('pause');
+    body.classList.add('pause');
   }
 }
 

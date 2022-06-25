@@ -15,6 +15,10 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+body.pause {
+  background-image: url("https://i.ibb.co/93ZFFRt/nyap1.jpg");
+}
+
 .display__time-left {
   font-weight: 100;
   font-size: 20rem;
