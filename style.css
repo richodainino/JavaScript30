@@ -35,7 +35,7 @@ main {
 .container {
   min-height: 100vh;
   width: 100%;
-  background-image: url("./image/background/image2.jpg");
+  background-image: url("./image/background/cute\ pattern\ 2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,11 +53,14 @@ main {
   0% {
     background-image: url("./image/background/image3.jpg");
   }
-  50% {
+  33% {
     background-image: url("./image/background/image2.jpg");
   }
-  100% {
+  66% {
     background-image: url("./image/background/image1.jpg");
+  }
+  100% {
+    background-image: url("./image/background/cute\ pattern\ 2.jpg");
   }
 }
 
